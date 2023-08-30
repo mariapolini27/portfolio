@@ -1,17 +1,24 @@
 import './Footer.css'
+import Discordia from './../../assets/img/discordia (1).png'
+import Facebook from './../../assets/img/facebook (1).png'
+import Instagram from './../../assets/img/instagram (1).png'
+import Telegram from './../../assets/img/logotipo-do-telegram (1).png'
+import Twitter from './../../assets/img/twitter (1).png'
+
 
 function Footer(){
     return(
         <footer>
           <div className="Rodape"> 
-          <div><img className='img' src="src\assets\img\Barbie_Logo.svg.png" alt=""></img></div>
+          <div><img className='img' src="" alt=""></img></div>
 
         <div className="imagens"> 
-        <div><img className='img-icones' src="src\assets\img\discordia (1).png" alt=""></img></div>
-          <div><img className='img-icones' src="src\assets\img\facebook (1).png" alt=""></img></div>
-          <div><img className='img-icones' src="src\assets\img\instagram (1).png" alt=""></img></div>
-          <div><img className='img-icones' src="src\assets\img\logotipo-do-telegram (1).png" alt=""></img></div>
-          <div><img className='img-icones' src="src\assets\img\twitter (1).png" alt=""></img></div>
+        <div><img className='img-icones' src={Discordia} alt=""></img></div>
+        <div><img className='img-icones' src={Facebook} alt=""></img></div>
+        <div><img className='img-icones' src={Instagram} alt=""></img></div>
+        <div><img className='img-icones' src={Telegram} alt=""></img></div>
+        <div><img className='img-icones' src={Twitter} alt=""></img></div>
+        
 
         </div>
           </div>

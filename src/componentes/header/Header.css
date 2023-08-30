@@ -15,9 +15,21 @@ header ul li a{
     text-decoration: none;
     color: white;
     border: 1px solid hotpink;
+    border-radius: 5px;
+
 
 }
 .img-logo{
-    width: 120px;
-    margin-left: 60px;
+    width: 50px;
+    margin-left: 50px;
+    align-items: center;
+    
+    
+} 
+
+h1{
+    align-items: center;
 }
+
+
+
