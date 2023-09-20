@@ -2,6 +2,8 @@ import Imagem from "./../../assets/img/IMG-3008.jpg"
 import './Portfolio.css'
 function Portfolio(){
     return(
+
+        
         <div className="portfolio-content">
            <img className="foto" src={Imagem} alt="" />
            <div className="texto-portfolio">
@@ -14,6 +16,14 @@ function Portfolio(){
                  </p>
            </div>
         </div>
+        
+
+        
+
+
+
+
+
     ) 
 }
 
