@@ -51,11 +51,11 @@ export default function Main() {
     return (
         <>
             <div className="campo_pesquisa">
-                <p>BUSQUE UM PROJETO
+                <p>BUSQUE UM CURSO
                 </p>
                 <input type="text" 
                        className='botao_pesquisa'
-                       placeholder='Pesquise um Projeto'
+                       placeholder='Pesquisar'
                        onChange={TrataTexto} />
                 {texto && <p>Resultados Para: {texto} </p>}
             </div>
