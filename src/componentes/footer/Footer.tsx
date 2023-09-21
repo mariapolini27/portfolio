@@ -10,9 +10,8 @@ function Footer(){
     return(
         <footer>
           <div className="Rodape"> 
-          <div><img className='img' src="" alt=""></img></div>
 
-        <div className="imagens"> 
+
         <div><img className='img-icones' src={Discordia} alt=""></img></div>
         <div><img className='img-icones' src={Facebook} alt=""></img></div>
         <div><img className='img-icones' src={Instagram} alt=""></img></div>
@@ -20,7 +19,7 @@ function Footer(){
         <div><img className='img-icones' src={Twitter} alt=""></img></div>
         
 
-        </div>
+
           </div>
           
             <nav>
