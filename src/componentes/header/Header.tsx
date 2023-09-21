@@ -1,5 +1,5 @@
 import './Header.css'
-import Logo from './../../assets/img/Black_Elegant_Modern_Name_Initials_Monogram_Logo-removebg-preview.png'
+import Logo from './../../assets/img/Black_Elegant_Modern_Name_Initials_Monogram_Logo-removebg-preview (1).png'
 import Link from './../link/Link'
 function Header(){
     return(
