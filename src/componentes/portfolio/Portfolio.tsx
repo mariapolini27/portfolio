@@ -7,12 +7,12 @@ function Portfolio(){
         <div className="portfolio-content">
            <img className="foto" src={Imagem} alt="" />
            <div className="texto-portfolio">
-            <h1> SOBRE MIM</h1>
+            <h1> VENHA ME CONHECER</h1>
 
             <p> 
                 Olá me chamo Maria Vitória, tenho atualmente 18 anos e resido na cidade de Naviraí MS. <br/> 
-                 Sou apaixonada pela internet e pelo mundo da moda. <br/>
-                Aqui está um de meus exemplos de projetos desenvolvido no meu curso de técnico de informática do IFMS.
+                 Sou uma pessoa interessada em adquirir novos conhecimentos profissionais. <br/>
+                Aqui está exemplos de cursos feitos por mim no IFMS.
                  </p>
            </div>
         </div>
