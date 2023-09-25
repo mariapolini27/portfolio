@@ -25,7 +25,7 @@ footer ul li a{
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex: 3;
 }
 .img-logo{
