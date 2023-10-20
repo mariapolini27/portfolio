@@ -16,14 +16,6 @@ function Portfolio(){
                  </p>
            </div>
         </div>
-        
-
-        
-
-
-
-
-
     ) 
 }
 

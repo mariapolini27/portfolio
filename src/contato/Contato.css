@@ -1,0 +1,61 @@
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 986px;
+    background-color: #82e2f1;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+}
+.input{
+    border: 1px solid  rgb(32, 111, 190);
+    margin: 0;
+    width: 100%;
+    height: 25px;
+    text-align: start;
+    padding-left: 5px;
+}
+.nomecompleto{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nomecompleto input {
+    border: 0px solid  rgb(24, 65, 104);
+    border-radius: 10px;
+    margin: 0;
+    height: 25px;
+    width: 143px;
+    padding-left: 5px;
+    text-align: start;
+    margin-right: 10px;
+    border: 1px solid  rgb(97, 127, 190);
+}
+.contatos button{
+    background-color: rgb(125, 123, 123);
+    width: 100px;
+    height: 28px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.1s;
+}
+.contatos button:hover{
+    transform: scale(1.1);
+}
+.contatoTexto{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.contatoTexto p{
+    font-size: 20px;
+}

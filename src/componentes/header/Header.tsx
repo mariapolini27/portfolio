@@ -1,6 +1,6 @@
 import './Header.css'
 import Logo from './../../assets/img/Black_Elegant_Modern_Name_Initials_Monogram_Logo-removebg-preview (1).png'
-import Link from './../link/Link'
+import LinkNav from '../linknav/LinkNav'
 function Header(){
     return(
         <header>
@@ -13,13 +13,13 @@ function Header(){
             <nav>
                 <ul>
                     <li>
-                        <Link texto='Inicio'/>
+                        <LinkNav url="/inicio" texto='Inicio'/>
                     </li>
                     <li>
-                        <Link texto='Sobre mim'/>
+                        <LinkNav url="/Sobre" texto='Sobre mim'/>
                     </li>
                     <li>
-                        <Link texto='Contato'/>
+                        <LinkNav url="/Contato" texto='Contato'/>
                     </li>
                 </ul>
             </nav>
